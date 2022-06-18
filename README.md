@@ -1,1 +1,1 @@
-# Annotated Corpus with Negation and Speculaiton Arabic in Review (NSAR) Domain
+# Annotated Corpus with Negation and Speculaiton in Arabic Review (NSAR) Domain
