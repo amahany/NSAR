@@ -1,4 +1,4 @@
-# Annotated Corpus with Negation and Speculaiton in Arabic Review (NSAR) Domain
+# Negation and Speculaiton in Arabic Review (NSAR)
 
 NSAR is the first pubicaly available Arabic review corpus annotated with negation and speculation. It includes around 3K review sentences from three well-known Arabic corpora. These sentences cover review for various topics, such as products and resturants. The below table show the distribution of the sentences for each topic.
 | Topic | Books | Touristic Places | Hotels | Products | Restaurants | Software | 
