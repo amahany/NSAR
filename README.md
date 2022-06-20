@@ -6,3 +6,19 @@ NSAR is the first pubicaly available Arabic review corpus annotated with negatio
 | No. of Sentences | 1040 | 108 | 74 | 916 | 473 | 400 |
 
 Webanno tool is used for the annotation process where 29% and 4% of the corpus includes negated and speculated sentences respectively. The annotated sentences are written in TSV file format as in the corpus directory. 
+
+To read the annotated sentences, there is a need to install web-anno-tsv 0.0.1 python package using `pip install web-anno-tsv`. This is a sample python script to read LABR TSV file.
+
+```
+from web_anno_tsv import open_web_anno_tsv
+
+labr = 'corpus/LABR.tsv'
+
+with open_web_anno_tsv(labr) as f:
+    for i, sentence in enumerate(f):
+        print(f"Sentence {i}:", sentence.text)
+        for j, annotation in enumerate(sentence.annotations):
+            print(f'\tAnnotation {j}:')
+            print('\t\tText:', annotation.text)
+            print("\t\tLabel:", annotation.label)
+```
