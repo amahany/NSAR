@@ -22,3 +22,5 @@ with open_web_anno_tsv(labr) as f:
             print('\t\tText:', annotation.text)
             print("\t\tLabel:", annotation.label)
 ```
+### Citation
+Ahmed Mahany, Heba Khaled, Nouh Sabri Elmitwally, Naif Aljohani and Said Ghoniemy, “Annotated Corpus with Negation and Speculation in Arabic Review Domain: NSAR” International Journal of Advanced Computer Science and Applications(IJACSA), 13(7), 2022. http://dx.doi.org/10.14569/IJACSA.2022.0130706
