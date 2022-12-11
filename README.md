@@ -24,5 +24,5 @@ with open_web_anno_tsv(labr) as f:
 ```
 ### Citation
 
-1. Ahmed Mahany, Heba Khaled, Nouh Sabri Elmitwally, Naif Aljohani and Said Ghoniemy, “Annotated Corpus with Negation and Speculation in Arabic Review Domain: NSAR” International Journal of Advanced Computer Science and Applications(IJACSA), 13(7), 2022. http://dx.doi.org/10.14569/IJACSA.2022.0130706
+1. Mahany, A.; Khaled, H.; Elmitwally, N.S.; Aljohani, N.; Ghoniemy, S. Annotated Corpus with Negation and Speculation in Arabic Review Domain: NSAR. IJACSA. 2022, 13, 7. https://doi.org/10.14569/IJACSA.2022.0130706
 2. Mahany, A.; Khaled, H.; Elmitwally, N.S.; Aljohani, N.; Ghoniemy, S. Negation and Speculation in NLP: A Survey, Corpora, Methods, and Applications. Appl. Sci. 2022, 12, 5209. https://doi.org/10.3390/app12105209
